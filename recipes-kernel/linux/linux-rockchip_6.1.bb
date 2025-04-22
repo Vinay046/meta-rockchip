@@ -10,6 +10,7 @@ SRCREV = "${AUTOREV}"
 SRC_URI = " \
 	git://github.com/radxa/kernel.git;protocol=https;branch=linux-6.1-stan-rkr4.1-buildroot; \
 	file://${THISDIR}/files/cgroups.cfg \
+        file://${THISDIR}/files/network-fix.cfg \
 "
 
 LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
